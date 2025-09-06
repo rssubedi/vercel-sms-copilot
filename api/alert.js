@@ -1,4 +1,4 @@
-﻿import { kv, kDailyLoss, kTicket, kCodeToId } from "../lib/kv.js";
+import { kv, kDailyLoss, kTicket, kCodeToId } from "../lib/kv.js";
 import twilioPkg from "twilio";
 import { randomUUID, createHash } from "node:crypto";
 

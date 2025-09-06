@@ -1,4 +1,4 @@
-﻿import { kv, kDailyLoss, kTicket, kCodeToId, kPaused } from "../lib/kv.js";
+import { kv, kDailyLoss, kTicket, kCodeToId, kPaused } from "../lib/kv.js";
 import twilioPkg from "twilio";
 
 const twilio = twilioPkg(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_AUTH_TOKEN);

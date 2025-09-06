@@ -1,4 +1,4 @@
-﻿import { kv, kDailyLoss, kPaused } from "../lib/kv.js";
+import { kv, kDailyLoss, kPaused } from "../lib/kv.js";
 
 export default async function handler(req, res) {
   const cap = Number(process.env.TRAILING_CUSHION||3000) * Number(process.env.USE_PCT_OF_CUSHION||0.5);
